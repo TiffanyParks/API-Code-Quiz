@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex: 1 0 100px;
+    margin-top: 30rem;
+    font-family: "Nova Round", cursive;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+
+.flex-container {
+    display: flex;
+    max-width: 1700px;
+    height: 40vh;
+    background-color: black;
+    justify-content: center;
+    transition: 0.3s;
+    padding: 10px; 
+    box-shadow: 10px 10px 14px 0px rgba(215, 29, 166, 0.75);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+h1 {
+    font-size: 7rem;
+    color: deeppink;
+}
+
+.h3 {
+    font-size: 3rem;
+    color: antiquewhite;
+    text-align: center;
+    margin: 8Srem;
+}
+
+
+
+
+button {
+  
+    height: 4vh;
+    width: 12vw;
+    font-family: "Nova Round", cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 1rem;
+    background-color: chartreuse;
+    border-radius: 15px;
+    color: deeppink;
+    border: 2px dotted;
+    box-shadow: 10px 10px 14px 0px rgba(215, 29, 166, 0.75);
+}

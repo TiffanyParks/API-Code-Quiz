@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/5af91a0d7a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <div id="viewHighscores">
+            <button class="viewHighscores btn">View High Score</button>
+            <div class="storageInfo">
+            </div>
+        </div>
+        <div id="saveBtn">
+            <button class="saveBtn btn">Save Score</button>
+        </div>
+        <button class="resetHighscore btn storeInfo">Reset High Score</button>
+
+        <div class="storageInfo"></div>
+    </div>
+
+    <div>
+        <h2 class="scoreBoard">Total Score: <span id="scoresPAN"></span></h2>
+    </div>
+    <div class="mainPanel">
+        <div class="resultPanel">
+            <div class="quizContainer">
+                <h1 id="question"></h1>
+            </div>
+            <div class="optionsContainer">
+                <button class="option" id="optionA" onclick="checkAnswer('A')"></button>
+                <button class="option" id="optionB" onclick="checkAnswer('B')"></button>
+                <button class="option" id="optionC" onclick="checkAnswer('C')"></button>
+                <button class="option" id="optionD" onclick="checkAnswer('D')"></button>
+            </div>
+        </div>
+        <div>
+            <h2 class="answerContainer"></h2>
+        </div>
+        <div class="start">
+            <h1 class="timer"><span id="time"></span> Seconds Remaining </h1>
+            <button class="startBtn btn">Start Quiz</button>
+            <button class="playAgain btn">Play Again</button>
+            <button class="viewHighscore">View High score</button>
+        </div>
+        <div class="form">
+            <h2 class="message"></h2>
+            <form id="form">
+                <label>Initial: <input type="text" class="formInput" /></label>
+                <button type="submit" class="saveScore">Save Score</button>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

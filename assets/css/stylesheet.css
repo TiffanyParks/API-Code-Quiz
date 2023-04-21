@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+:root {background-color: whitesmoke;
+}
+
+body {
+    text-align: center;
+    margin-top: 20rem;
+    padding: 0; 
+    font-size: 1.5rem;
+    font-family: "Nova Round", cursive;
+}
+
+.mainPanel {
+    display: block;
+    margin: 80px auto;
+    height: 35vh;
+    background-color: black;
+    justify-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 14px 0px rgba(215, 29, 166, 0.75);
+    transition: 0.3s;
+    flex-direction: column; 
+    margin: 0 auto;
+    width: 50vw;
+    padding: 20px;
+    align-items: center; 
+}  
+
+h1 {
+    font-size: 7rem;
+    color: deeppink;
+}
+
+h2 {
+    font-size: 3rem;
+    color: deeppink;
+}
+
+
+#timer {
+    font-size: 7rem;
+    color: deeppink;
+    font-style: bold;
+    text-decoration: underline;
+}
+
+/* #hurry {
+    font-size: 7rem;
+    color: deeppink;
+    font-style: bold;
+} */
+
+.start-container {
+    display: block;
+    /* margin: auto; */
+    align-items: center;
+    justify-content:center;
+    margin-top: 30px;
+}
+
+.quiz-container {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 1px;
+    width: 50%;
+    border-radius: 9px;
+    font-size: 3rem;
+    min-width: 80rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.option {
+    color: #d61da5;
+    font-size: 2rem;
+    width: 100%;
+    padding: 40px; 
+    border-radius: 15px;
+    font-size: 1.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color:hsl(90, 100%, 70%);
+    border: 7px dotted rgb(214, 29, 165);
+}
+
+.option:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    box-shadow: 0 0.2rem .9rem rgb(214, 29, 165);
+    transform: scale(1.03);
+    transform: transform 100ms;
+}
+
+.timer-container {
+    text-align: center;
+    color:chartreuse;
+    font-style: bold;
+    font-weight: 20; background-color: aliceblue;
+   
+}
+
+
+ .navigation {
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content:center;
+    margin-top: 30px;
+} 
+ 
+.btn {
+    color:chartreuse;
+    background-color: #d61da5;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    border: 4px solid chartreuse;
+    width: 7vw;
+    box-shadow: 10px 10px 14px 0px rgba(215, 29, 166, 0.75);
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    transform: transform 100ms;
+    background-color: #ddd;
+    color: rgb(215, 29, 166);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    text-align: center;
+    color:chartreuse;
+    background-color: #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    border: 4px solid chartreuse;
+    width: 7vw;
+    box-shadow: 10px 10px 14px 0px rgba(215, 29, 166, 0.75);
+}
+
+/* .next {
+    color:chartreuse;
+    background-color: #d61da5;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    border: 4px solid chartreuse;
+    width: 5vw;
+    box-shadow: 10px 10px 14px 0px rgba(215, 29, 166, 0.75);
+}
+
+.next:hover {
+    transform: scale(1.03);
+    transform: transform 100ms;
+    background-color: #ddd;
+    color: #d61da5;
+}
+
+.viewHighschores {
+    color:chartreuse;
+    background-color: #d61da5;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    border: 4px solid chartreuse;
+    width: 6vw;
+    box-shadow: 10px 10px 14px 0px rgba(215, 29, 166, 0.75);
+}
+
+.viewHighschores:hover {
+    transform: scale(1.03);
+    transform: transform 100ms;
+    background-color: #ddd;
+    color: #d61da5;
+} */
+
+@media screen and (max-width: 321px) {
+    body{
+        display:inline-flex;
+        flex-direction: column;
+    }
+}
