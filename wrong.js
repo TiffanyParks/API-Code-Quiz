@@ -274,3 +274,68 @@ playAgain.addEventListener("click", function () {
 //     }
 
 // })
+
+
+
+var startButton = document.getElementById('start-btn')
+var questionContainerElement = document.getElementById('question-container')
+var questionElement = document.getElementById('question')
+var shuffledQustions =undefined
+var currentQuestionIndex = undefined
+var questionElement = document.getElementById('question')
+var answerButtonsElement = document.getElementById('answer-buttons')
+
+startButton.addEventListener('click', startGame)
+
+
+function startGame() {
+    console.log('Started')
+    // startButton.classList.add('hide')
+    shuffledQustions = questions.sort(() => Math.random() - .5)
+    currentQuestionIndex = 0
+    // questionContainerElement.classList.remove('hide')
+    setNextQuestion()
+}
+
+function setNextQuestion() {
+    showQuestion(shuffledQuestions[currentQuestionIndex])
+}
+
+function showQuestion(question) {
+    questionElement.innerHTML = question.question
+}
+
+
+function selectAnswer() {
+
+}
+
+
+//Questions for the quiz
+let questions = [
+    {
+        question: "Which option is a special value in JavaScript that refers to the absence of a value?",
+        answers: [
+            { text: "Operator", correct: false },
+            { text: "String", correct: false },
+            { text: "Null", correct: true },
+            { text: "Argument", correct: false },
+        ]
+    }]
+
+
+    function getScore(){
+        if (q.A === q.answer){
+            console.log("correct");
+        }
+        else if (q.B === q.answer){
+            console.log("correct");
+        }
+        else if (q.C === q.answer){
+            console.log("correct");
+        }
+        else if (q.D === q.answer){
+            console.log("correct");
+        }
+        else (secondsLeft--)
+    };

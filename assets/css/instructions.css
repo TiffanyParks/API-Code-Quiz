@@ -2,18 +2,19 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    flex: 1 0 100px;
-    margin-top: 30rem;
+    margin-top: 10px;
     font-family: "Nova Round", cursive;
     padding: 0;
-    font-size: 1.5rem;
+    margin: auto;
+    padding: 40px;
 }
 
 
 .flex-container {
     display: flex;
-    max-width: 1700px;
-    height: 40vh;
+    width: 30rem;
+    height: auto;
+    margin:0;
     background-color: black;
     justify-content: center;
     transition: 0.3s;
@@ -31,29 +32,21 @@ body {
 
 
 h1 {
-    font-size: 7rem;
     color: deeppink;
 }
 
 .h3 {
-    font-size: 3rem;
     color: antiquewhite;
     text-align: center;
-    margin: 8Srem;
 }
 
-
-
-
 button {
-  
-    height: 4vh;
-    width: 12vw;
+    height:auto;
+    width: 5vw;
     font-family: "Nova Round", cursive;
-    font-size: 2rem;
-    font-weight: 400;
+    font-weight: bold;
+    align-items: center;
     text-align: center;
-    padding: 1rem;
     background-color: chartreuse;
     border-radius: 15px;
     color: deeppink;
