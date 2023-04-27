@@ -39,3 +39,9 @@ Initially, end user must start the game from the home page. Once initiated, end 
 
 formatting the play button on the start page to be more responsive to smaller device. 
 Implementing the reset and high score buttons
+
+
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/126128634/234764672-507d7ab1-5cd7-44c8-8183-b15d6d9cb523.png">
+
+<img width="406" alt="image" src="https://user-images.githubusercontent.com/126128634/234764769-c40404b3-b4d8-4eb6-89d9-a4ecc2b0516a.png">
+
